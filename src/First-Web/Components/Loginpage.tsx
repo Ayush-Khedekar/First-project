@@ -21,7 +21,7 @@ export default function Loginpage({
     if (inputValue.email === "" || inputValue.password === "") {
       alert("Enter both Email and Password");
     } else if (
-      inputValue.email.includes("@soliteck.com") &&
+      inputValue.email.includes("@protech.com") &&
       inputValue.password === "12345"
     ) {
       setIsLoggedIn(true);

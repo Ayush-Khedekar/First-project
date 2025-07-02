@@ -1,13 +1,21 @@
-import  { useState } from 'react'
-import Greeting from './Projects/Greeting'
-
-function App2() {
-    const [name,setName] = useState("")
+import Header from "./ProjectsNew/Header";
+import Travel from "./ProjectsNew/Travel";
+import Data from "./ProjectsNew/TravelData.tsx";
+// import type {travelProps} from "./ProjectsNew/Travel";
+export default function App2() {
+  const data = Data.map((val) => {
+    return (
+      <Travel
+        key={val.id}
+        {...val}
+      />
+    );
+  });
   return (
-    <div>
-      <Greeting name={name} setName={setName}/>
-    </div>
-  )
+    <>
+      <Header />
+      {data}
+    </>
+  );
 }
 
-export default App2
