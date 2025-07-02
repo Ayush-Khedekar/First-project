@@ -1,7 +1,12 @@
+import Tajmahal from "/src/Images/licensed-image.jfif"
+import QutubMinar from "/src/Images/Qutub Minar.jfif"
+import Agrafort from "/src/Images/Agra fort.jfif"
+import Suntemple from "/src/Images/Sun temple.jfif"
+import Golden from "/src/Images/Golden temple.webp"
 export default [
   {
     id: 1,
-    src: "/src/Images/licensed-image.jfif",
+    src: Tajmahal,
     alt: "Taj Mahal",
 
     title: "Taj Mahal",
@@ -13,7 +18,7 @@ export default [
   },
   {
     id: 2,
-    src: "/src/Images/Qutub Minar.jfif",
+    src: QutubMinar,
     alt: "Qutub Minar",
     title: "Qutub Minar",
     construction:
@@ -23,7 +28,7 @@ export default [
   },
   {
     id: 3,
-    src: "/src/Images/Agra fort.jfif",
+    src: Agrafort,
     alt: "Agra Fort",
     title: "Agra Fort",
     construction: "construction starting in 1565 and completed in 1573.",
@@ -31,8 +36,8 @@ export default [
     googleLinks: "https://en.wikipedia.org/wiki/Agra_Fort",
   },
   {
-    id: 5,
-    src: "/src/Images/Sun temple.jfif",
+    id: 4,
+    src: Suntemple,
     alt: "Konark Sun Temple",
     title: "Konark Sun Temple",
     construction:
@@ -41,8 +46,8 @@ export default [
     googleLinks: "https://en.wikipedia.org/wiki/Konark_Sun_Temple",
   },
   {
-    id: 6,
-    src: "/src/Images/Golden temple.webp",
+    id: 5,
+    src: Golden,
     alt: "Golden Temple of Amritsar",
     title: "Golden Temple of Amritsar",
     construction: "The Golden Temple, also known as Sri Harmandir Sahib, was built in stages, with the initial structure completed in 1604.",
