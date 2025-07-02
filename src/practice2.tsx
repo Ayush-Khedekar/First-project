@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export default function practice2() {
   const names = ["Alice", "Bob", "Charlie"];
