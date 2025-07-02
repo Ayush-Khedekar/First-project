@@ -1,8 +1,8 @@
-import Tajmahal from "/Images/licensed-image.jfif"
-import QutubMinar from "/Images/Qutub Minar.jfif"
-import Agrafort from "/Images/Agra fort.jfif"
-import Suntemple from "/Images/Sun temple.jfif"
-import Golden from "/Images/Golden temple.webp"
+import Tajmahal from "../Images/licensed-image.jfif"
+import QutubMinar from "../Images/Qutub Minar.jfif"
+import Agrafort from "../Images/Agra fort.jfif"
+import Suntemple from "../Images/Sun temple.jfif"
+import Golden from "../Images/Golden temple.webp"
 export default [
   {
     id: 1,
