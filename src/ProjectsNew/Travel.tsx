@@ -16,8 +16,8 @@ export default function Travel(props: travelProps):React.JSX.Element {
     <>
       <main className="px-[20%] pt-[7%] flex w-full gap-4">
         <img
-          className="w-[40%] h-[35vh] rounded-xl"
-          src={props.src}
+          className="w-[40%] h-[35vh] rounded-xl filter transition-[filter] duration-100 ease-in-out hover:brightness-[1.2]"
+          src={props.src} 
           alt={props.alt}
         />
         <div className="w-[80%] flex flex-col gap-2 h-[30px] mt-4">
